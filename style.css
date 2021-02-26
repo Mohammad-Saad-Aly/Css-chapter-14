@@ -1,0 +1,105 @@
+ul {
+    /* list-style-type: lower-roman; */
+    /* list-style-type: lower-alpha; */
+    /* list-style-position: inside; */
+    /* list-style: inside circle; */
+}
+
+/* .something{
+    margin: 10px auto;
+    width: 50%;
+} */
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* table{ */
+    /* width: 600px; */
+    /* margin: 10px auto; */
+    /* padding: 90px; */
+    /* border: 3px solid blue; */
+    /* text-align: center; */
+    /* empty-cells: hide; */
+    /* border-collapse: collapse; */
+    /* border-spacing: 10px; */
+/* } */
+/* 
+th,td{
+    padding: 10px;
+    border: 3px solid blue;
+
+}
+
+tr.even{
+    background-color: aqua;
+}
+
+tr:hover{
+    background-color: burlywood;
+} */
+
+form{
+    width: 600px;
+    margin: 10px auto;
+}
+
+input{
+    padding: 10px;
+    margin: 10px;
+    font-size: 1em;
+    border-radius: 2px;
+    border: 2px dashed blue;
+    cursor: pointer;
+}
+
+input:hover{
+    background-color: pink;
+}
+
+input:focus{
+    background-color: gray;
+}
+
+button{
+    width: 200px;
+}
+button:hover{
+    width: 300px;
+    height: 100px;
+    background-color: greenyellow;
+    color: red;
+    border-radius: 4px;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+button:active{
+    background-color: royalblue;
+}
+
+input.email{
+    background-image: url('https://png.pngtree.com/element_our/png/20181213/inbox-vector-icon-png_267453.jpg');
+    background-size: 40px;
+    background-repeat: no-repeat;
+    padding-left: 10%;
+}
+
+input.pass{
+    background-image: url('https://icon-library.com/images/show-password-icon/show-password-icon-4.jpg');
+    background-size: 30px;
+    background-repeat: no-repeat;
+    padding-left: 10%;
+}
+
+legend{
+    text-align: center;
+    border: 4px solid blue;
+    padding: 20px;
+
+}
+
+form{
+    border: 4px solid purple;
+}
